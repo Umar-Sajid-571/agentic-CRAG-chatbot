@@ -45,11 +45,9 @@ The backend operates as a stateful graph (`StateGraph`) that routes the user que
 2. **Grade Docs Node:** An LLM critically evaluates the context. If the context is complete, it finalizes the response; if incomplete, it routes to web search; if vague, it routes to a query refiner.
 
 
-3. 
-**Web Search / Rewrite Nodes:** Augments missing data via DuckDuckGo or optimizes the user's initial prompt for better semantic matching.
+3. **Web Search / Rewrite Nodes:** Augments missing data via DuckDuckGo or optimizes the user's initial prompt for better semantic matching.
 
 
-4. 
-**Tool Node:** Executes necessary operations (calculating, saving memory, ingesting PDFs) based on structured LLM outputs.
+4. **Tool Node:** Executes necessary operations (calculating, saving memory, ingesting PDFs) based on structured LLM outputs.
 
 
